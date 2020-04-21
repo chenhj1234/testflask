@@ -12,4 +12,4 @@ def hello():
 
 @app.route('/<username>/hello')
 def hellouser(username):
-    return 'Hello %s orig %s' % (escape(username), username)
+    return 'Hello %s !!' % escape(username)
